@@ -1,4 +1,2 @@
-[tomcat-servers]
-#webserver1
 ec2-52-53-212-96.us-west-1.compute.amazonaws.com
 ec2-54-153-3-212.us-west-1.compute.amazonaws.com
