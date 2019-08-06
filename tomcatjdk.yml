@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+- name: Install OpenJDK 8
+  yum: name=java-1.8.0-openjdk state=present
+- name: Install Apache Tomcat 9
+  yum: name=tomcat9 state=present
+- name: Start Apache Tomcat service
+  service: name=tomcat9 state=started
